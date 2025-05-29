@@ -34,21 +34,28 @@ This project automates the **Secret Santa gift exchange process**. It ensures a 
 ```bash
 git clone https://github.com/Varjinth/secret_santa_task.git
 cd secret_santa_task
-bash```
+```
+
+### 2. Keep the employees data file and previous year assignment file in specific folder.
 
 Place your input CSV files in the data/ folder:
+
 Required:
 employees.csv — list of employees with name and email
 
 Optional:
 last_year_assignments.csv — prevents assigning the same person as last year
 
+### 3. Please change the file name in the code accordingly.
 
-Run the program
+### 4. Run the Program
+
 ```bash
-Copy
-Edit
+
 python main.py
- After running, check output/this_year_assignments.csv for the results.
+
+```
+
+ After running, check output folder for the results.
 
 
